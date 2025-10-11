@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Board from "./components/Board";
 
 function Description() {
   return (
@@ -78,6 +79,13 @@ function App() {
       <Greeting visibility={isLiked} name={user.name} />
       <h2>Other users liked</h2>
       <LikedUsers users={users} />
+
+      <div>
+        <h2>React Tic Tac Toe</h2>
+        <div className="game-board">
+          <Board />
+        </div>
+      </div>
     </div>
   );
 }
