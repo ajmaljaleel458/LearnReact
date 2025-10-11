@@ -1,7 +1,4 @@
 import { useState } from "react";
-import "./App.css";
-import Board from "./components/Board";
-
 function Description() {
   return (
     <>
@@ -63,6 +60,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <Description />
       <h2>Hey {user.name}</h2>
       <img
@@ -79,13 +77,6 @@ function App() {
       <Greeting visibility={isLiked} name={user.name} />
       <h2>Other users liked</h2>
       <LikedUsers users={users} />
-
-      <div>
-        <h2>React Tic Tac Toe</h2>
-        <div className="game-board">
-          <Board />
-        </div>
-      </div>
     </div>
   );
 }

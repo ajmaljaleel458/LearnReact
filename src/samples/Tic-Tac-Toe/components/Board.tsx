@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Square from "./Square";
-import type { Value } from "../commen/types";
+import type { Value } from "../../../commen/types";
 
 export default function Board() {
   const [xIsNext, setXIsNext] = useState(true);

@@ -1,4 +1,4 @@
-import type { Value } from "../commen/types";
+import type { Value } from "../../../commen/types";
 
 export default function Square({
   value,
