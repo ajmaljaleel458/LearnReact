@@ -1,4 +1,4 @@
-import Index from "./rendering-lists/Index";
+import Index from "./keeping-components-pure/Index";
 
 export default function App() {
   return (
