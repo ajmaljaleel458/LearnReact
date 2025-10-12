@@ -1,4 +1,4 @@
-import Index from "./js-in-jsx-with-curlybraces/Index";
+import Index from "./conditional-rendering/Index";
 
 export default function App() {
   return (
