@@ -18,11 +18,7 @@ const person: Person = {
 export default function Index({}: Props) {
   return (
     <div>
-      <Avatar
-        name={person.name}
-        img_url={person.img_url}
-        img_alt={person.img_alt}
-      />
+      <Avatar person={person} />
       <TodoList todos={person.todos} />
     </div>
   );
