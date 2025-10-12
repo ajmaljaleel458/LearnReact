@@ -1,4 +1,4 @@
-import Index from "./conditional-rendering/Index";
+import Index from "./rendering-lists/Index";
 
 export default function App() {
   return (
