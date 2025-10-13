@@ -7,7 +7,7 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 import "./index.css";
-import App from "./samples/describing-the-ui/App";
+import App from "./samples/adding-interactivity/App";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
