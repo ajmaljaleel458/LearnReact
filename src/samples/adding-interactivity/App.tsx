@@ -1,4 +1,4 @@
-import Index from "./component-state-memory/Index";
+import Index from "./state-as-a-snapshot/Index";
 
 export default function App() {
   return (
