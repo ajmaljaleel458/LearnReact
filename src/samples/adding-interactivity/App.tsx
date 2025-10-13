@@ -1,4 +1,4 @@
-import Index from "./responding-to-events/Index";
+import Index from "./component-state-memory/Index";
 
 export default function App() {
   return (
