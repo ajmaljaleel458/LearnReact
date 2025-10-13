@@ -1,4 +1,4 @@
-import Index from "./state-as-a-snapshot/Index";
+import Index from "./updating-objects-in-state/Index";
 
 export default function App() {
   return (
