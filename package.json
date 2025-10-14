@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "client:dev": "vite --host www.learn-react.com",
+    "client:build": "tsc -b && vite build",
+    "client:lint": "eslint .",
+    "client:preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

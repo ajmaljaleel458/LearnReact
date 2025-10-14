@@ -6,6 +6,6 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 import "./index.css";
-import App from "./samples/adding-interactivity/App";
+import App from "./samples/managing-states/App";
 
 createRoot(document.getElementById("root")!).render(<App />);
