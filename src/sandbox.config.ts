@@ -1,1 +1,1 @@
-export const ACTIVE_SANDBOX = 'redundant-state';
+export const ACTIVE_SANDBOX = 'state-duplication';
