@@ -10,6 +10,7 @@ export default function Profile({}: Props) {
   function handleClick(e: any) {
     e.preventDefault();
     setIsEditing(!isEditing);
+    console.log({ firstName, lastName });
   }
   return (
     <form>

@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "client:dev": "vite --host www.learn-react.com",
+    "client:dev": "vite --host www.learn-react.com --debug true --logLevel info",
     "client:build": "tsc -b && vite build",
     "client:lint": "eslint .",
     "client:preview": "vite preview"
@@ -23,6 +23,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^30.0.0",
     "@types/node": "^24.6.0",
     "@types/react": "^19.1.16",
     "@types/react-dom": "^19.1.9",
