@@ -1,1 +1,1 @@
-export const ACTIVE_SANDBOX = 'structuring-state';
+export const ACTIVE_SANDBOX = 'state-contradictions';
