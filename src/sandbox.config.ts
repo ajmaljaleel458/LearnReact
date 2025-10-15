@@ -1,1 +1,1 @@
-export const ACTIVE_SANDBOX = 'state-duplication';
+export const ACTIVE_SANDBOX = 'deeply-nested-state';
