@@ -1,1 +1,1 @@
-export const ACTIVE_SANDBOX = 'sample';
+export const ACTIVE_SANDBOX = 'structuring-state';

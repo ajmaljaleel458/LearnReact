@@ -1,0 +1,27 @@
+.FollowCursor {
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.FollowSurface {
+  width: 500px;
+  height: 500px;
+  background-color: #332e2e;
+  margin-top: 10px;
+}
+
+.Follower {
+  position: relative;
+  background-color: rgb(153, 255, 0);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  left: -10;
+  top: -10;
+  width: 20;
+  height: 20;
+}
