@@ -1,0 +1,9 @@
+.Form {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.Input {
+  border: 0.1pc solid black;
+}
