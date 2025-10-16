@@ -1,1 +1,1 @@
-export const ACTIVE_SANDBOX = 'state-sharing';
+export const ACTIVE_SANDBOX = 'state-preserving-and-resetting';

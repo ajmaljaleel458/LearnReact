@@ -16,7 +16,7 @@ case $command in
     cat > "$sandbox_root/$sandbox_name/App.tsx" <<EOF
 export default function App() {
   return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+    <div style={{ textAlign: "center", marginTop: "50px", display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <h1>Sandbox: $sandbox_name</h1>
       <p>Welcome to your isolated React sandbox.</p>
     </div>
