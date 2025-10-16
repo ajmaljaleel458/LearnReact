@@ -1,1 +1,1 @@
-export const ACTIVE_SANDBOX = 'deeply-nested-state';
+export const ACTIVE_SANDBOX = 'state-sharing';
